@@ -1,0 +1,56 @@
+nav{padding-top:56px;float:right;padding-right:4px;width:620px;line-height:22px;}
+.sf-menu{display:block;float:right;}
+
+.sf-menu ul {position:absolute; top:-999px; display:none; z-index:999;}
+.sf-menu a {display:block;}
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {z-index:999;}
+
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul {top:-999px; display:none;z-index:999}
+ul.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul {left:100%; top:0;z-index:999}
+ul.sf-menu>li{font-family: 'Ubuntu Condensed', sans-serif; font-size: 17px;float:left;
+padding:0 0 0 40px;position:relative;}
+ul.sf-menu>li:first-child{padding-left:0;}				
+				
+ul.sf-menu>li>a{display:block;position:relative;color:#6e7377 ;}
+ul.sf-menu>li:first-child>a:after{background: url(../images/bg-span-submenu.jpg) 0 0 no-repeat;width:7px;height:4px;display:block;position:absolute;top:-18px; left:21px;content:"";}
+				
+ul.sf-menu>li.current , ul.sf-menu>li.sfHover , ul.sf-menu>li:hover {}
+ul.sf-menu>li.current>a, ul.sf-menu>li.sfHover>a, ul.sf-menu>li>a:hover{color:#78c6ff;}
+
+
+.sf-menu>li>ul{left:-23px;top:49px;
+background:#5096c4;
+padding:11px 17px 10px 20px;
+width:75px;}
+			 
+			   
+.sf-menu>li>ul>li {
+	 font-size: 12px;font-family: Arial, Helvetica, sans-serif;width:70px;display:block;border-top:1px solid #6da5c9;
+	 text-align:left;padding: 4px 0 4px 5px;
+}
+.sf-menu>li>ul>li:first-child{border-top:none;}
+							
+.sf-menu>li>ul>li>a {display:inline-block;color:#fff;}
+	 
+.sf-menu>li>ul>li:hover, ul.sf-menu>li>ul>li.sfHover{}
+.sf-menu>li>ul>li>a:hover, ul.sf-menu>li>ul>li.sfHover a {color:#0a3a72;}
+
+.sf-menu li li ul {left:112px !important;
+				 top:62px !important;
+				 display:block;
+				 background:#4e4e4e;
+				padding:11px 17px 10px 20px;
+				width:75px;
+				 }
+.sf-menu li li li {float:none;
+					font-size: 12px;font-family: Arial, Helvetica, sans-serif;width:70px;display:block;
+					border-top:1px solid #5c5c5c;
+	                text-align:left;padding: 4px 0 4px 5px;
+					}
+					.sf-menu li li li:first-child{border-top:none;}
+					
+.sf-menu li li li a {display:inline-block;color:#fff !important;}
+	
+					
+.sf-menu li li li:hover {}
+.sf-menu li li li a:hover {color:#65b3e6 !important;}

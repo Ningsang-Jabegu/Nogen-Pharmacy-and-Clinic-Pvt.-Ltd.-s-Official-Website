@@ -1,0 +1,45 @@
+/*--------- slider ---------*/
+#slide {position:relative; overflow:hidden; z-index:1;}
+
+.slider {position: relative; z-index:1;width:1500px; height:727px;
+overflow: hidden;left:50%;margin-left:-735px;border-bottom:6px solid #e1e1e1;}
+.items {display:none;}
+
+.banner{width: 500px;position:absolute;top: 119px; z-index:15; text-align:left; height: 240px;left: 620px; 
+padding:12px 0 0 0;border-left:2px solid #a1d1ec;padding-left:33px;overflow:hidden;
+background: url(../images/bg-banner.jpg) 0 0 no-repeat;}
+
+.banner span{display:block;font-size:72px;line-height:87px;color:#fff;font-family: 'Ubuntu Condensed', sans-serif;
+text-shadow:1px 1px #89bdd9; text-transform:uppercase;letter-spacing:-4px; word-spacing:-1px;}
+.banner span em{font-style:normal;color:#45ade5;}
+.banner span strong{color:#2f6db4;font-weight:normal;}
+
+.banner .strong-1{font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color:#ffffff; 
+font-size:36px; 
+line-height:44px;text-shadow:1px 1px #b1dfeb;display:block;font-weight:normal;text-align:right;margin-top:-12px;
+word-spacing:-3px;}
+
+.banner p{font-size:14px;color:#3b81b2;line-height:20px;margin:13px 100px 0 4px;}
+
+.bun-right{margin-right:100px;}
+.bun-right-1{margin-right:150px;}
+
+.banner a{}
+.banner .button-bunner{font-size:18px;line-height:22px; color:#fff; 
+text-shadow:1px 1px #82c4da;text-transform:uppercase;background: url(../images/bg-bunner-button.png) left 3px no-repeat;
+padding-left:23px;float:right;margin:5px 110px 0 0;font-family: 'Ubuntu Condensed', sans-serif;}
+.banner .button-bunner:hover{color:#014a5d;}
+
+
+.pagination {position:absolute;z-index:1000; width:150px; height:32px;left:951px;top:411px;}
+.pagination li {float:left;	margin: 0 2px 0 2px;}
+.pagination a {display:block; width:29px; height:6px; background: url(../images/pagination.png) right 0 no-repeat;}
+.pagination li.current a, .pagination li:hover a{background: url(../images/pagination.png) 0 0 no-repeat;}
+/*
+.prev{background: ; width: px; height: px; position:absolute; top:244px; right:342px; z-index:1000; display:block;}
+.prev:hover {background-position:0 0;}
+.next {background: ; width: px; height: px; position:absolute; top:266px; right:296px; z-index:1000; display:block;}
+.next:hover {background-position:right 0;}
+*/
+
+
